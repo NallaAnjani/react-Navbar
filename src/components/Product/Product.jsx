@@ -1,5 +1,5 @@
 import React from "react"
-import Data from "../../data"
+import Data from "./Data"
 import "./Product.css"
 class Product extends React.Component{
     render(){
