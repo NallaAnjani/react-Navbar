@@ -1,0 +1,21 @@
+#container{
+    display: grid;
+    grid-template-columns:  23% 23% 23% 23%;
+    gap:2%;
+    padding: 20px;
+
+
+}
+#card{
+    border:2px solid rgb(31, 29, 29);
+    border-radius: 10px;
+    height:41vh;
+    width:90%;
+    text-align: center;
+    padding: 5px;
+}
+#card>img{
+    width: 80%;
+    height:25vh;
+
+}

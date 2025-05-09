@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+#navbar{
+    background-color:blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    align-items: center;
+    color: white;
+    
+}
+#nav_left{
+    font-size: 30px;
+}
+#nav_right{
+    display: flex;
+    gap: 80px;
+}
+#nav_right>#link{
+    border: 2px solid rgb(243, 153, 44);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+      color:white;
+      text-decoration: none;
+}
